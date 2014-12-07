@@ -1,0 +1,28 @@
+{
+  "name": "modern-web-development-2014",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "autoprefixer-loader": "^1.0.0",
+    "css-loader": "^0.9.0",
+    "html-webpack-plugin": "^1.1.0",
+    "jshint": "^2.5.10",
+    "jshint-loader": "^0.8.0",
+    "sass-loader": "^0.3.1",
+    "style-loader": "^0.8.2",
+    "traceur": "0.0.79",
+    "traceur-loader": "^0.6.3",
+    "webpack": "^1.4.13",
+    "webpack-traceur-loader": "^0.3.0"
+  },
+  "dependencies": {
+    "bluebird": "^2.3.11",
+    "jquery": "^2.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michiel Helvensteijn <mhelvens@gmail.com>",
+  "license": "MIT"
+}
