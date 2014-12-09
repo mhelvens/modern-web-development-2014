@@ -52,9 +52,9 @@
 	    $__expose_63_jQuery_33_jquery__,
 	    $__bacon__;
 	__webpack_require__(/*! ./~/traceur-loader/~/traceur/bin/traceur-runtime.js */ 1);
-	($__index_45_1_46_scss__ = __webpack_require__(/*! ./index-1.scss */ 2), $__index_45_1_46_scss__ && $__index_45_1_46_scss__.__esModule && $__index_45_1_46_scss__ || {default: $__index_45_1_46_scss__});
-	var $ = ($__expose_63_jQuery_33_jquery__ = __webpack_require__(/*! expose?jQuery!jquery */ 8), $__expose_63_jQuery_33_jquery__ && $__expose_63_jQuery_33_jquery__.__esModule && $__expose_63_jQuery_33_jquery__ || {default: $__expose_63_jQuery_33_jquery__}).default;
-	var Bacon = ($__bacon__ = __webpack_require__(/*! bacon */ 7), $__bacon__ && $__bacon__.__esModule && $__bacon__ || {default: $__bacon__}).default;
+	($__index_45_1_46_scss__ = __webpack_require__(/*! ./index-1.scss */ 6), $__index_45_1_46_scss__ && $__index_45_1_46_scss__.__esModule && $__index_45_1_46_scss__ || {default: $__index_45_1_46_scss__});
+	var $ = ($__expose_63_jQuery_33_jquery__ = __webpack_require__(/*! expose?jQuery!jquery */ 11), $__expose_63_jQuery_33_jquery__ && $__expose_63_jQuery_33_jquery__.__esModule && $__expose_63_jQuery_33_jquery__ || {default: $__expose_63_jQuery_33_jquery__}).default;
+	var Bacon = ($__bacon__ = __webpack_require__(/*! bacon */ 10), $__bacon__ && $__bacon__.__esModule && $__bacon__ || {default: $__bacon__}).default;
 	$(document).ready((function() {
 	  var message = $('hello');
 	  var button = $('hello-button');
@@ -2522,10 +2522,14 @@
 	});
 	System.get("traceur-runtime@0.0.72/src/runtime/polyfills/polyfills" + '');
 	
-	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }()), __webpack_require__(/*! (webpack)/~/node-libs-browser/~/process/browser.js */ 11)))
+	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }()), __webpack_require__(/*! (webpack)/~/node-libs-browser/~/process/browser.js */ 14)))
 
 /***/ },
-/* 2 */
+/* 2 */,
+/* 3 */,
+/* 4 */,
+/* 5 */,
+/* 6 */
 /*!**************************!*\
   !*** ./src/index-1.scss ***!
   \**************************/
@@ -2534,10 +2538,10 @@
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(/*! !./~/css-loader!./~/autoprefixer-loader!./~/sass-loader!./src/index-1.scss */ 3);
+	var content = __webpack_require__(/*! !./~/css-loader!./~/autoprefixer-loader!./~/sass-loader!./src/index-1.scss */ 7);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(/*! ./~/style-loader/addStyles.js */ 6)(content, {});
+	var update = __webpack_require__(/*! ./~/style-loader/addStyles.js */ 8)(content, {});
 	// Hot Module Replacement
 	if(false) {
 		// When the styles change, update the <style> tags
@@ -2551,19 +2555,17 @@
 	}
 
 /***/ },
-/* 3 */
+/* 7 */
 /*!*********************************************************************************!*\
   !*** ./~/css-loader!./~/autoprefixer-loader!./~/sass-loader!./src/index-1.scss ***!
   \*********************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(/*! ./~/css-loader/cssToString.js */ 10)();
+	exports = module.exports = __webpack_require__(/*! ./~/css-loader/cssToString.js */ 13)();
 	exports.push([module.id, "body div.box{border:solid 1px;padding:10px;margin:10px}", ""]);
 
 /***/ },
-/* 4 */,
-/* 5 */,
-/* 6 */
+/* 8 */
 /*!*************************************!*\
   !*** ./~/style-loader/addStyles.js ***!
   \*************************************/
@@ -2762,7 +2764,8 @@
 
 
 /***/ },
-/* 7 */
+/* 9 */,
+/* 10 */
 /*!**********************************************!*\
   !*** ./bower_components/bacon/dist/Bacon.js ***!
   \**********************************************/
@@ -5894,7 +5897,7 @@
 	    }
 	  };
 	
-	  if (("function" !== "undefined" && __webpack_require__(/*! !webpack amd define */ 12) !== null) && (__webpack_require__(/*! !webpack amd options */ 13) != null)) {
+	  if (("function" !== "undefined" && __webpack_require__(/*! !webpack amd define */ 15) !== null) && (__webpack_require__(/*! !webpack amd options */ 16) != null)) {
 	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = function() {
 	      return Bacon;
 	    }.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
@@ -5908,20 +5911,20 @@
 	
 	}).call(this);
 	
-	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }()), __webpack_require__(/*! (webpack)/buildin/module.js */ 14)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }()), __webpack_require__(/*! (webpack)/buildin/module.js */ 17)(module)))
 
 /***/ },
-/* 8 */
+/* 11 */
 /*!*************************************************************************!*\
   !*** ./~/expose-loader?jQuery!./bower_components/jquery/dist/jquery.js ***!
   \*************************************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	/* WEBPACK VAR INJECTION */(function(global) {module.exports = global["jQuery"] = __webpack_require__(/*! -!./bower_components/jquery/dist/jquery.js */ 9);
+	/* WEBPACK VAR INJECTION */(function(global) {module.exports = global["jQuery"] = __webpack_require__(/*! -!./bower_components/jquery/dist/jquery.js */ 12);
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 9 */
+/* 12 */
 /*!************************************************!*\
   !*** ./bower_components/jquery/dist/jquery.js ***!
   \************************************************/
@@ -15120,7 +15123,7 @@
 
 
 /***/ },
-/* 10 */
+/* 13 */
 /*!*************************************!*\
   !*** ./~/css-loader/cssToString.js ***!
   \*************************************/
@@ -15144,7 +15147,7 @@
 	}
 
 /***/ },
-/* 11 */
+/* 14 */
 /*!**********************************************************!*\
   !*** (webpack)/~/node-libs-browser/~/process/browser.js ***!
   \**********************************************************/
@@ -15239,7 +15242,7 @@
 
 
 /***/ },
-/* 12 */
+/* 15 */
 /*!***************************************!*\
   !*** (webpack)/buildin/amd-define.js ***!
   \***************************************/
@@ -15249,7 +15252,7 @@
 
 
 /***/ },
-/* 13 */
+/* 16 */
 /*!****************************************!*\
   !*** (webpack)/buildin/amd-options.js ***!
   \****************************************/
@@ -15260,7 +15263,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, {}))
 
 /***/ },
-/* 14 */
+/* 17 */
 /*!***********************************!*\
   !*** (webpack)/buildin/module.js ***!
   \***********************************/
